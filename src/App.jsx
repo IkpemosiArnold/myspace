@@ -1,14 +1,15 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import "./App.css";
-
-function App() {
+import Home from "./pages/Home";
+import Pmportfolio from "./pages/Pmportfolio";
+import { Route, Routes, useLocation } from "react-router-dom";
+const App = () => {
+  const location = useLocation();
   return (
-    <div className="App">
-      <h1>Hi, I'm Ikpemosi Arnold.</h1>
-      <p>On most days I believe there's nothing I can't do.</p>
-    </div>
+    <Routes location={location} key={location.pathname}>
+      <Route path="/" element={<Home />} />
+      <Route path="/pm" element={<Pmportfolio />} />
+    </Routes>
   );
-}
+};
 
 export default App;
