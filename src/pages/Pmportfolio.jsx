@@ -61,6 +61,29 @@ const Pmportfolio = () => {
         </ol>
 
         <p> </p>
+        <h2>TheRadar</h2>
+        <a href="https://trvbobs.netlify.app/menu" target="_blank">
+          Live Link
+        </a>
+        <p>
+          TheRadar is a studio based out of LA, US that wanted a website with a
+          different feel and encapsulated their name "TheRadar".
+        </p>
+        <h5>My role</h5>
+        <p>
+          I worked collaboratively with a very lean team of a designer and
+          developer. I had daily time-boxed stand-up meetings, sprints, sprint
+          reviews, and retrospectives. I also contributed heavily to the
+          codebase, as seen on my{" "}
+          <span>
+            <a
+              href="https://github.com/IkpemosiArnold/TRVBOBS/"
+              target="_blank"
+            >
+              github
+            </a>
+          </span>
+        </p>
       </Container>
     </div>
   );
