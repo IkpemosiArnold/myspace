@@ -1,7 +1,15 @@
 .App {
   min-height: 100vh;
-  margin: 120px auto;
-  width: 80%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
 }
 .subheading {
   font-size: medium;
@@ -11,6 +19,7 @@
 }
 .profile-summary {
   max-width: 80ch;
+  font-size: clamp(0.75rem, 0.611rem + 0.8899vw, 1.75rem);
 }
 .work-section {
   display: flex;
@@ -34,7 +43,43 @@
   height: auto;
 }
 .work-desc {
+  max-width: 240px;
 }
 .breadcrumb {
   text-align: left;
+}
+.work-status {
+  display: inline-flex;
+  align-items: center;
+}
+.green-glow {
+  display: inline-block;
+  margin: auto 4px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: radial-gradient(circle at center, #b7e5b3, #94d78e, #74ca6f);
+  box-shadow: 0 0 20px #74ca6f;
+  animation: glow 1s ease-in-out infinite;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 20px #74ca6f;
+  }
+  50% {
+    box-shadow: 0 0 40px #74ca6f;
+  }
+  100% {
+    box-shadow: 0 0 20px #74ca6f;
+  }
+}
+
+.highlight {
+  background-color: rgb(212, 252, 82);
+}
+footer {
+  margin-top: 2%;
+  font-size: clamp(0.75rem, 0.611rem + 0.8899vw, 1.75rem);
+  text-align: center;
 }
