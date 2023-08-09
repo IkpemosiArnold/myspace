@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import jetAge from "../assets/JetAgeSolutions.png";
-import theosis from "../assets/TheosisInvite.png";
-import lvmedia from "../assets/LVMEDIA.png";
-import magnuminsight from "../assets/MangnumInsight.png";
-import fatmin from "../assets/Fatmin.png";
+import jetAge from "../assets/JetAgeSolutions.webp";
+import theosis from "../assets/TheosisInvite.webp";
+import lvmedia from "../assets/LVMEDIA.webp";
+import magnuminsight from "../assets/MangnumInsight.webp";
+import fatmin from "../assets/Fatmin.webp";
 
 const Home = () => {
   const [today, setToday] = useState("");
