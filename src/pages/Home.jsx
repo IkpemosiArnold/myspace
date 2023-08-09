@@ -47,12 +47,7 @@ const Home = () => {
           </span>
           .
         </p>
-        <h3>Toolkit</h3>
-        <span className="subheading">Languages, Platforms and tools</span>
-        <p className="profile-summary">
-          Svelte, NodeJs, React, HTML, JavaScript, TypeScript, Python, Framer,
-          Wordpress, Webflow{" "}
-        </p>
+
         <h3>Projects</h3>
         <div className="work-section">
           <div className="work-boxes">
@@ -115,6 +110,12 @@ const Home = () => {
             </p>
           </div>
         </div>
+        <h3>Toolkit</h3>
+        <span className="subheading">Languages, Platforms and tools</span>
+        <p className="profile-summary">
+          Svelte, NodeJs, React, HTML, JavaScript, TypeScript, Python, Framer,
+          Wordpress, Webflow{" "}
+        </p>
         <footer>Have a wonderful {today} 🤗</footer>
       </Container>
     </div>
