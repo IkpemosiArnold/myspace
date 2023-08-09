@@ -10,6 +10,7 @@
   align-items: center;
   align-content: center;
   justify-content: space-between;
+  margin-bottom: 5%;
 }
 .subheading {
   font-size: medium;
@@ -19,7 +20,7 @@
 }
 .profile-summary {
   max-width: 80ch;
-  font-size: clamp(0.75rem, 0.611rem + 0.8899vw, 1.75rem);
+  font-size: clamp(1rem, 0.8957rem + 0.6674vw, 1.75rem);
 }
 .work-section {
   display: flex;
@@ -80,6 +81,6 @@
 }
 footer {
   margin-top: 2%;
-  font-size: clamp(0.75rem, 0.611rem + 0.8899vw, 1.75rem);
+  font-size: clamp(1rem, 0.8957rem + 0.6674vw, 1.75rem);
   text-align: center;
 }
