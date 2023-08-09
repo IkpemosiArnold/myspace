@@ -28,15 +28,12 @@ const Home = () => {
         </nav>
         <h1>
           Software Engineer <br></br>
-          <span className="subheading">
-            On most days I believe there's nothing I can't do.
-          </span>
         </h1>
 
         <p className="profile-summary">
-          Currently, <span className="highlight">I write code</span> and help
-          businesses scale their operations by figuring out what their customers
-          really need and making sure the product meets these needs seamlessly.
+          Currently, I write code and help businesses scale their operations by
+          figuring out what their customers really need and making sure the
+          product meets these needs seamlessly.
         </p>
         <p className="profile-summary">
           {" "}
