@@ -32,8 +32,8 @@ const Home = () => {
 
         <p className="profile-summary">
           Currently, I write code and help businesses scale their operations by
-          figuring out what their customers really need and making sure their
-          products meets these needs seamlessly.
+          partnering with them to figure out what their customers really need
+          and make sure their products meets these needs seamlessly.
         </p>
         <p className="profile-summary">
           {" "}
