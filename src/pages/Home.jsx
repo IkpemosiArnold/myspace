@@ -51,21 +51,6 @@ const Home = () => {
         <h3>Projects</h3>
         <div className="work-section">
           <div className="work-boxes">
-            <a href="https://lvmedia.ng/">
-              <img
-                className="work-image"
-                src={lvmedia}
-                alt="screenshot of lvmedia landing page"
-                loading="lazy"
-              />
-            </a>
-            <p className="work-desc">
-              Frontend and Backend for LVmedia.ng, B2C platform that allows
-              users to purchase social media services<br></br>
-              <span className="subheading">ReactJs, NodeJs, MongoDB</span>
-            </p>
-          </div>
-          <div className="work-boxes">
             <a href="https://magnuminsight.com">
               <img
                 className="work-image"
@@ -77,7 +62,7 @@ const Home = () => {
             <p className="work-desc">
               Frontend for MagnumInsight, a Canadian Immigration Consulting
               Company. Focus especially on User Dashboard<br></br>
-              <span className="subheading">ReactJs, NodeJs</span>
+              <span className="subheading">ReactJs, NodeJs, Wordpress</span>
             </p>
           </div>
           <div className="work-boxes">
@@ -95,18 +80,18 @@ const Home = () => {
             </p>
           </div>
           <div className="work-boxes">
-            <a href="#">
-              {" "}
+            <a href="https://lvmedia.ng/">
               <img
                 className="work-image"
-                src={jetAge}
-                alt="screenshot of jetage website"
+                src={lvmedia}
+                alt="screenshot of lvmedia landing page"
                 loading="lazy"
               />
             </a>
             <p className="work-desc">
-              Website for Jetage, Renewable Energy Consulting Company <br></br>
-              <span className="subheading">Wordpress</span>
+              Frontend and Backend for LVmedia.ng, B2C platform that allows
+              users to purchase social media services<br></br>
+              <span className="subheading">ReactJs, NodeJs, MongoDB</span>
             </p>
           </div>
         </div>
